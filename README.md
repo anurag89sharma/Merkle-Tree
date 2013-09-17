@@ -32,8 +32,11 @@ Sample Run
 anurag@Anurag:~/Desktop/Problem2$ python
 
 >>> import problem2 as pr
+
 >>> obj = pr.Diff('cguide1.txt', 'cguide2.txt')
+
 >>> obj.make_trees()
+
 Difference at block 0
 
 No Difference at block1
