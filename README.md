@@ -20,6 +20,7 @@ How to run(Tested on ubuntu 12.04, unsure about windows (should work though))
 2. Type "python" (without quotes)
 3. Suppose the files to be tested are file1.txt(original/correct file) and file2.txt (file to be checked for corruption in file blocks)
 4. Type the follwing lines to execute the program
+	
 	import problem2 as pr
 
 	obj = pr.Diff('file1.txt', 'file2.txt')
